@@ -1,0 +1,15 @@
+article {
+    display: inline-grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    gap: 3px;
+}
+
+section {
+    display: flex;
+    font-size: 50px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+}
