@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    align-items: flex-end;
+    min-height: 200px;
+    width: 500px;
+    gap: 1px;
+}
+
+.wrapper > div {
+    display: flex;
+    flex: 1 1 150px;
+    border: 1px dashed black;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    align-self: stretch;
+    background-color: antiquewhite;
+}
+
+.box2 {
+    align-self: flex-start;
+    background-color: azure;
+}
